@@ -1,5 +1,5 @@
 import config from './config.json';
-import { LanyardVisualizer } from 'lanyard-visualizer';
+import { LanyardCard } from 'lanyard-card';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         </div>
 
         <div className="my-4">
-          <LanyardVisualizer id={config.discord.id} />
+          <LanyardCard id={config.discord.id} />
         </div>
 
         <p className="my-4">{config.description}</p>
